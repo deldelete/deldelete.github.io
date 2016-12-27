@@ -1,0 +1,15 @@
+{
+  "name": "ny-cement-tile",
+  "description": "ny cement tile website",
+  "main": "index.html",
+  "authors": [
+    "Dor Rondel"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "ny",
+    "cement",
+    "tile"
+  ],
+  "homepage": ""
+}

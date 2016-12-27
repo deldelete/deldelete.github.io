@@ -1,0 +1,45 @@
+nav ul li a {
+  color: #ffa500;
+}
+#mobile-demo li a {
+  color: #ffa500;
+}
+nav img {
+  margin-top: 3px;
+}
+#last-nav-item {
+  margin-right: 10px;
+}
+.fa-bars {
+  color: #ffa500;
+}
+#logo {
+  height: 60px;
+  width: 250px;
+  margin-left: 15px;
+}
+.dropdown-content li a {
+  color: #ffa500;
+}
+.parallax-container {
+  height: 250px;
+}
+hr {
+  width: 5%;
+  text-align: center;
+}
+h4 {
+  text-align: center;
+  margin-top: 1em;
+}
+main div {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  color: #616161;
+}
+main div p {
+  margin-bottom: 3em;
+}
