@@ -1,0 +1,8 @@
+# OS X stuff
+.DS*
+
+# Node
+node_modules/
+
+#scripts
+*.py

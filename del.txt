@@ -1,0 +1,22 @@
+<div class="gallery-container">
+	<ul>
+		<li class="gallery-item-container">
+        <img class="materialboxed gallery-item" src="./../assets/img/solidColors/0"></img>
+    </li>
+		<li class="gallery-item-container">
+        <img class="materialboxed gallery-item" src="./../assets/img/solidColors/1"></img>
+    </li>
+		<li class="gallery-item-container">
+        <img class="materialboxed gallery-item" src="./../assets/img/solidColors/2"></img>
+    </li>
+		<li class="gallery-item-container">
+        <img class="materialboxed gallery-item" src="./../assets/img/solidColors/3"></img>
+    </li>
+		<li class="gallery-item-container">
+        <img class="materialboxed gallery-item" src="./../assets/img/solidColors/4"></img>
+    </li>
+		<li class="gallery-item-container">
+        <img class="materialboxed gallery-item" src="./../assets/img/solidColors/5"></img>
+    </li>
+	</ul>
+</div>
