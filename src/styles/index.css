@@ -58,6 +58,24 @@ hr {
     height: 400px;
     width: 600px;
   }
+  .card-image {
+    height: 200px;
+  }
+}
+@media (min-width: 800px) and (max-width: 1050px) {
+  .card-image {
+    height: 150px;
+  }
+}
+@media (min-width: 651px) and (max-width: 799px) {
+  .card-image {
+    height: 120px;
+  }
+}
+@media (min-width: 501px) and (max-width: 650px) {
+  .card-image {
+    height: 100px;
+  }
 }
 @media (max-width: 500px) {
   .carousel-pic {
