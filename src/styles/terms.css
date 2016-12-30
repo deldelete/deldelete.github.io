@@ -24,3 +24,15 @@ nav img {
 .parallax-container {
   height: 250px;
 }
+main {
+  color: #616161;
+}
+main p {
+  font-size: 16px;
+}
+main h5 {
+  text-align: center;
+}
+main hr {
+  width: 25px;
+}
