@@ -53,7 +53,7 @@
     </ul>
 
     <ul id="order-dropdown" class="dropdown-content">
-      
+
       <li><a href="./inStock.html">In Stock</a></li>
       <li><a href="./sample.html">Order a Sample</a></li>
       <li><a href="./terms.html">Terms of Sale</a></li>
@@ -89,7 +89,7 @@
     </ul>
 
     <ul id="order-dropdown2" class="dropdown-content">
-      
+
       <li><a href="./inStock.html">In Stock</a></li>
       <li><a href="./sample.html">Order a Sample</a></li>
       <li><a href="./terms.html">Terms of Sale</a></li>
@@ -134,6 +134,38 @@
        </div>
       <div class="parallax"><img src="./../assets/img/shower.jpg"></div>
      </div>
+
+     <!-- Form -->
+     <main id="contact">
+        <div class="row" style="text-align: center;">
+          <p class="col s12 m8 offset-m2" style="color: #616161;">Use the form below to reach us with any inquiry or concern and we will try to get back to you at the soonest opportunity</p>
+          <form class="col s12 m8 offset-m2" action="https://formspree.io/info@nycementtile.com" method="POST">
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="first_name" type="text" name="firstName"/>
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="last_name" type="text" name="lastName"/>
+                <label for="last_name">Last Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" name="email"/>
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea id="textarea1" class="materialize-textarea" name="messageContent"></textarea>
+                <label for="textarea1">Inquiry</label>
+              </div>
+            </div>
+            <button class="btn waves-effect waves-light orange lighten-2 submitButton" type="submit" name="action">Submit</button>
+          </form>
+        </div>
+      </main>
 
      <!-- Footer -->
      <footer class="page-footer orange lighten-1">

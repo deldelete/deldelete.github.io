@@ -14,7 +14,7 @@ nav img {
   color: #ffa500;
 }
 #logo {
-  height: 60px;
+  height: 70px;
   width: 250px;
   margin-left: 15px;
 }
@@ -23,4 +23,65 @@ nav img {
 }
 .parallax-container {
   height: 250px;
+}
+main div p {
+  margin-bottom: 2em;
+}
+#contact {
+  color: #ffb74d;
+  padding-top: 30px;
+}
+#contact h1 {
+  margin-bottom: 50px;
+  font-family: 'Bitter', serif;
+}
+#contact textarea:focus {
+  color: #ffb74d;
+  border-bottom: 1px solid #ffb74d;
+  box-shadow: 0 1px 0 0 #ffb74d;
+}
+#contact textarea:focus + label {
+  color: #ffb74d;
+}
+#contact button {
+  width: 20%;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+.input-field label {
+  color: #ffb74d;
+}
+.input-field input[type=text]:focus + label {
+  color: #ffb74d;
+}
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #ffb74d;
+  box-shadow: 0 1px 0 0 #ffb74d;
+}
+.input-field input[type=text].valid {
+  border-bottom: 1px solid #ffb74d;
+  box-shadow: 0 1px 0 0 #ffb74d;
+}
+.input-field input[type=text].invalid {
+  border-bottom: 1px solid #ffb74d;
+  box-shadow: 0 1px 0 0 #ffb74d;
+}
+.input-field input[type=email]:focus + label {
+  color: #ffb74d;
+}
+.input-field input[type=email]:focus {
+  border-bottom: 1px solid #ffb74d;
+  box-shadow: 0 1px 0 0 #ffb74d;
+}
+.input-field .prefix.active {
+  color: #ffb74d;
+}
+.materialize-textarea {
+  color: #ffb74d;
+  margin-bottom: 25px;
+}
+@media (max-width: 499px) {
+  #logo {
+    height: 60px;
+  }
 }

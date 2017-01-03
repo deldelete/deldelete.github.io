@@ -14,7 +14,7 @@ nav img {
   color: #ffa500;
 }
 #logo {
-  height: 60px;
+  height: 70px;
   width: 250px;
   margin-left: 15px;
 }
@@ -39,5 +39,122 @@ section {
   margin-bottom: 3em;
 }
 section li {
-  margin: 2px 0;
+  margin: 2px;
+}
+.gallery-container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.gallery-item {
+  height: 230px;
+  width: 270px;
+}
+.gal-title {
+  margin-top: 3em;
+}
+.inner-list {
+  list-style-type: none;
+  margin-top: 3em;
+  padding: 0;
+  text-align: center;
+  line-height: 0px;
+}
+.inner-list li {
+  display: inline-block;
+}
+.inner-list p {
+  font-size: 19px;
+}
+.inner-list h5 {
+  margin-top: 2.5em;
+}
+@media (min-width: 1200px) {
+  .gallery-item {
+    margin-left: 4em;
+  }
+  .inner-list li p {
+    margin-left: 3em;
+  }
+  .inner-list li h5 {
+    margin-left: 3em;
+  }
+  .inner-list .four {
+    font-size: 15px;
+  }
+}
+@media (min-width: 1051px) and (max-width: 1199px) {
+  .gallery-item {
+    margin-left: 2.5em;
+  }
+  .inner-list li h5 {
+    margin-left: 2.5em;
+  }
+  .inner-list li p {
+    margin-left: 2em;
+  }
+  .inner-list .four {
+    font-size: 12px;
+  }
+}
+@media (min-width: 900px) and (max-width: 1050px) {
+  .gallery-item {
+    margin-left: 3em;
+    height: 180px;
+    width: 220px;
+  }
+  .inner-list li h5 {
+    margin-left: 2em;
+  }
+  .inner-list p {
+    margin-left: 3em;
+    font-size: 15px;
+  }
+  .inner-list .four {
+    font-size: 12px;
+  }
+}
+@media (min-width: 800px) and (max-width: 899px) {
+  .gallery-item {
+    margin-left: 1em;
+    height: 180px;
+    width: 220px;
+  }
+  .inner-list li h5 {
+    margin-left: 1.2em;
+  }
+  .inner-list p {
+    margin-left: 0em;
+    font-size: 13px;
+  }
+  .inner-list .four {
+    font-size: 11px;
+  }
+}
+@media (min-width: 651px) and (max-width: 799px) {
+  .gallery-item {
+    margin-left: 0.3em;
+    height: 160px;
+    width: 190px;
+  }
+  .inner-list li h5 {
+    margin-left: 1.2em;
+  }
+  .inner-list p {
+    margin-left: 0em;
+    font-size: 12px;
+  }
+  .inner-list .four {
+    font-size: 10px;
+  }
+}
+@media (max-width: 650px) {
+  .gallery-item {
+    margin-top: 1em;
+  }
+}
+@media (max-width: 499px) {
+  #logo {
+    height: 60px;
+  }
 }
