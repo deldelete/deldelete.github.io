@@ -24,6 +24,9 @@ nav img {
 .parallax-container {
   height: 250px;
 }
+.desc {
+  font-size: 19px;
+}
 main img {
   display: block;
   margin: auto;
