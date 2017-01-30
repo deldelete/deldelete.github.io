@@ -58,3 +58,73 @@ main img {
     height: 60px;
   }
 }
+@media (min-width: 651px) and (max-width: 799px) {
+  #sq1 {
+    width: 550px;
+  }
+  #Hexagon img {
+    width: 550px;
+  }
+  #base1 {
+    width: 300px;
+  }
+  #oct1 {
+    width: 300px;
+  }
+}
+@media (min-width: 550px) and (max-width: 650px) {
+  #sq1 {
+    width: 400px;
+  }
+  #Hexagon img {
+    width: 400px;
+  }
+  #base1 {
+    width: 225px;
+  }
+  #oct1 {
+    width: 225px;
+  }
+}
+@media (min-width: 475px) and (max-width: 549px) {
+  #sq1 {
+    width: 375px;
+  }
+  #Hexagon img {
+    width: 375px;
+  }
+  #base1 {
+    width: 150px;
+  }
+  #oct1 {
+    width: 150px;
+  }
+}
+@media (min-width: 350px) and (max-width: 474px) {
+  #sq1 {
+    width: 320px;
+  }
+  #Hexagon img {
+    width: 320px;
+  }
+  #base1 {
+    width: 200px;
+  }
+  #oct1 {
+    width: 200px;
+  }
+}
+@media (min-width: 300px) and (max-width: 349px) {
+  #sq1 {
+    width: 285px;
+  }
+  #Hexagon img {
+    width: 285px;
+  }
+  #base1 {
+    width: 200px;
+  }
+  #oct1 {
+    width: 200px;
+  }
+}
