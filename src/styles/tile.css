@@ -64,6 +64,16 @@ nav img {
   height: 175px;
   width: 175px;
 }
+.four {
+  height: 90px;
+  width: 90px;
+  margin-right: 8px;
+}
+.three {
+  height: 120px;
+  width: 120px;
+  margin-right: 8px;
+}
 .right-content {
   margin-top: 9em;
   line-height: 40px;
@@ -92,6 +102,16 @@ nav img {
     height: 150px;
     width: 150px;
   }
+  .three {
+    height: 110px;
+    width: 110px;
+    margin-right: 6px;
+  }
+  .four {
+    height: 83px;
+    width: 83px;
+    margin-right: 5px;
+  }
   .title {
     width: 350px;
     text-align: center;
@@ -107,6 +127,16 @@ nav img {
   .bot {
     height: 125px;
     width: 125px;
+  }
+  .three {
+    height: 95px;
+    width: 95px;
+    margin-right: 5px;
+  }
+  .four {
+    height: 80px;
+    width: 80px;
+    margin-right: 5px;
   }
   .title {
     width: 300px;
@@ -127,6 +157,16 @@ nav img {
   .bot {
     height: 125px;
     width: 125px;
+  }
+  .three {
+    height: 85px;
+    width: 85px;
+    margin-right: 5px;
+  }
+  .four {
+    height: 75px;
+    width: 75px;
+    margin-right: 5px;
   }
   .title {
     width: 275px;
@@ -153,6 +193,16 @@ nav img {
   .bot {
     height: 100px;
     width: 100px;
+  }
+  .three {
+    height: 80px;
+    width: 80px;
+    margin-right: 3px;
+  }
+  .four {
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
   }
   #tile-pics .first {
     margin-left: 5px;
