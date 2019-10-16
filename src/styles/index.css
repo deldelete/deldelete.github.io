@@ -65,8 +65,11 @@ hr {
     margin-top: 5px;
   }
   .carousel-pic {
+    display: block;
     height: 400px;
-    width: 600px;
+    /*width: 600px;*/
+    width: auto !important;
+    margin: 0 auto;
   }
 }
 @media (min-width: 700px) {
