@@ -5,6 +5,7 @@
     <!-- Putting scripts first so carousel loads on time -->
     <script type="text/javascript" src="./bower_components/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="./bower_components/materialize/dist/js/materialize.min.js"></script>
+    <script type="text/javascript" src="./src/scripts/jquery.validate.min.js"></script>
     <script type="text/javascript" src="./src/scripts/index.js"></script>
 
     <title>New York Cement Tile | Cement Tiles New York City | Designer Cement Tiles</title>
@@ -139,6 +140,7 @@
            <li><a class="dropdown-button" href="#!" data-activates="order-dropdown">Order<i class="material-icons right">arrow_drop_down</i></a></li>
            <li><a href="./designer-cement-tiles/new-york-cement-tile.html">Blog</a></li>
            <li><a href="./pages/contact.html">Contact</a></li>
+           <li><a href="tel:(800)-691-1557">(800)-691-1557</a></li>
         </ul>
 
          <!-- Mobile Nav -->
@@ -150,6 +152,7 @@
            <li><a class="dropdown-button" href="#!" data-activates="order-dropdown2">Order<i class="material-icons right">arrow_drop_down</i></a></li>
            <li><a href="./designer-cement-tiles/new-york-cement-tile.html">Blog</a></li>
            <li><a href="./pages/contact.html">Contact</a></li>
+           <li><a href="tel:(800)-691-1557">(800)-691-1557</a></li>
          </ul>
        </div>
      </nav>
@@ -172,6 +175,36 @@
       <a class="carousel-item" href="#nine!"><img class="carousel-pic" src="./assets/img/carousel/slide-9.jpg"></a>
       <a class="carousel-item" href="#ten!"><img class="carousel-pic" src="./assets/img/carousel/slide-10.png"></a>
      </div>
+
+    <!-- Contact Form -->
+    <div class="slider-contact-form">
+      <form action="https://formspree.io/info@nycementtile.com" method="post" class="wpcf7-form" novalidate="novalidate">
+        <div class="row">
+          <div class="col s12">
+            <input type="text" name="your-name" class="wpcf7-form-control wpcf7-text" placeholder="Name">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s6">
+            <input type="email" name="your-email" class="wpcf7-form-control wpcf7-text" placeholder="E-Mail">
+          </div>
+          <div class="col s6">
+            <input type="tel" name="your-phone" class="wpcf7-form-control wpcf7-text" placeholder="Phone">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12">
+            <textarea name="your-message" class="wpcf7-form-control wpcf7-text materialize-textarea" placeholder="Message"></textarea>
+          </div>
+        </div>
+        <div class="row last">
+          <div class="col s12">
+            <button class="btn-large waves-effect waves-light orange lighten-2 white-text submit-button">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    
 
     <!-- Cards -->
     <div id="cards" class="row" style="margin-top: 4.3em; margin-bottom: 4em;">
@@ -287,12 +320,6 @@
       <div class="parallax"><img src="./assets/img/carousel/bg5.jpg" alt="Unsplashed background img 1"></div>
     </div>
 
-    <script>
-      $(document).ready(function(){
-         $('.carousel').carousel();
-      });
-     </script>
-
     <!-- Footer -->
     <footer class="page-footer orange lighten-1">
       <div class="container">
@@ -332,5 +359,11 @@
       ga('create', 'UA-93859405-1', 'auto');
       ga('send', 'pageview');
     </script>
+    
+    <script>
+      $(document).ready(function(){
+         $('.carousel').carousel();
+      });
+     </script>
   </body>
 </html>
