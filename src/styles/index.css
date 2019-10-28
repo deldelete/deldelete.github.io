@@ -44,7 +44,7 @@ hr {
   position: absolute;
   top: 110px;
   left: auto;
-  right: 15%;
+  right: 1%;
   width: 400px;
   background: rgba(255, 255, 255, 0.9);
   border: 1px solid #ccc;
@@ -170,7 +170,7 @@ hr {
   }
 }
 @media (min-width: 601px) and (max-width: 799px) {
-   .slider-contact-form{right:7.5%;}
+   .slider-contact-form{right:1%;}
 }
 @media (min-width: 651px) and (max-width: 799px) {
   .card-image img {
